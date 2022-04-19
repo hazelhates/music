@@ -1,0 +1,138 @@
+body {
+  font-size: 100%;
+  font-family: monospace, sans-serif;
+  background-color: rgb(20, 20, 20);
+
+}
+body:not(#about) {
+  background-image: -moz-linear-gradient(#FF0000, #000000, #000000);
+}
+
+#header {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 0 30px #777777;
+  margin: 10px auto 10px auto;
+}
+#header>ul {
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+  padding-right: 40px;
+  border: 1px solid white;
+  line-height: 2em;
+  color: black;
+  font-size: 1.5vw;
+  width: 100%
+  margin: 10px auto 10px auto;
+}
+#header li {
+  display: inline;
+  word-spacing: 2em;
+}
+#header a:link {
+  color: darkred;
+  text-decoration: none;
+}
+#header a:visited {
+  color: darkred;
+}
+#header a:hover {
+  color: burlywood;
+}
+#pageTitle {
+  text-align: center;
+  font-size: 4vw;
+  letter-spacing: .75em;
+  text-shadow: 0 0 10px red;
+  margin: 10px auto 10px auto;
+}
+#pageTitle:hover {
+  color: red;
+  text-shadow: 0 0 10px white;
+}
+
+.content {
+  color: white;
+  z-index: 0;
+}
+#intro {
+  font-size: 2vw;
+  text-align: center;
+  width: 50%;
+  margin: 10px auto 10px auto;
+}
+#info {
+  font-size: 1.5vw;
+  text-align: center;
+  width: 80%;
+  margin: 10px auto 10px auto;
+}
+
+strong {
+  font-family: Arial sans-serif;
+  color: red;
+  text-shadow: 0 0 10px darkred;
+}
+
+#important {
+  font-family: Courier, monospace;
+  color: rgb(255, 30, 30);
+  text-shadow: 0 0 5px rgb(255, 30, 30);
+}
+
+#contact {
+  color: white;
+  background-color: black;
+}
+
+address {
+  color: purple;
+}
+
+h3 {
+  color: violet;
+}
+
+#cornerNav {
+  z-index: 0;
+  position: fixed;
+  top:0px;
+  right: 10px;
+}
+#cornerNav>ul {
+  color: black;
+}
+#cornerNav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#cornerNav a {
+  filter: invert();
+}
+#cornerNav img {
+  height: 30px;
+}
+
+#music {
+  color: white;
+  font-family: Roboto, monospace;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+footer>a {
+  color: black;
+  visited: black;
+}
