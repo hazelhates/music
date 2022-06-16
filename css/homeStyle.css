@@ -126,6 +126,13 @@ h3 {
   letter-spacing: 2px;
 }
 
+.tickets>a{
+	color: white;
+	border: 2px solid white;
+	padding: auto;
+	margin: auto;
+}
+
 footer {
   color: white;
   background-color: black;
